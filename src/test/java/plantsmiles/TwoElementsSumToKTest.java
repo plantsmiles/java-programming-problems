@@ -12,7 +12,7 @@ public class TwoElementsSumToKTest {
 
     @Test
     public void testBigOnTimeSumToK() {
-        final Integer[] numbers = {3,4,5,0,4,1};
+        final Integer[] numbers = {2,4,5,0,4,1};
         final int sumTo = 6;
 
         assertTrue(TwoElementsSumToK.computeImproved(new ArrayList<Integer>(Arrays.asList(numbers)), sumTo));
